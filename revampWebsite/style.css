@@ -1,0 +1,671 @@
+/*style whole website*/
+html {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    position: fixed;
+    height: 67px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(89, 89, 89);
+    color: white;
+  }
+
+#footer_guestBook{
+    position: relative;
+    height: 67px;
+    width: 100.5%;
+    background-color: rgb(89, 89, 89);
+    color: white;
+}
+
+  .p_footer{
+    color: white;
+    font-size: 20px;
+    margin-right: 32px;
+    float: right;
+      
+  }
+
+  .homeButton{
+    height: 30px;
+    float: left;
+    padding-left: 5px;
+  }
+
+/*index pagina*/
+.phpHome{
+    color: rgb(207, 46, 132);
+    text-align: center;
+    text-decoration: none;
+}
+
+.block{
+    float: left;
+    width: 30%;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1350px){
+    .block{
+        height: 50%;
+        margin-left: 2.7%;
+    }
+    }
+
+.section_persoonlijk{
+    color: white;
+    transition: transform .5s;
+    margin-top: 20px;
+    border: 1px solid gray;
+    padding: 8px;
+    height: 15%;
+    width: 30%;
+}
+
+@media screen and (max-width: 1350px){
+    .section_persoonlijk{
+        margin-left: 3.7%;
+    }
+}
+
+.section_cv{
+    color: white;
+    transition: transform .5s;
+    margin-top: 20px;
+    margin-left: 35px;
+    border: 1px solid gray;
+    padding: 8px;
+    height: 15%;
+    width: 30%;
+}
+
+@media screen and (max-width: 1350px){
+    .section_cv{
+        float: right;
+        margin-right: 2.7%;
+    }
+}
+
+.section_portfolio{
+    color: white;
+    transition: transform .5s;
+    margin-top: 20px;
+    margin-left: 35px;
+    border: 1px solid gray;
+    padding: 8px;
+    height: 10%;
+    width: 30%;
+}
+
+@media screen and (max-width: 1350px){
+    .section_portfolio{
+        margin-left: 3.7%;
+    }
+}
+
+.section_guestBook{
+    color: white;
+    transition: transform .5s;
+    margin-top: 20px;
+    margin-left: 35px;
+    border: 1px solid gray;
+    padding: 8px;
+    height: 10%;
+    width: 30%;
+}
+
+@media screen and (max-width: 1350px){
+    .section_guestBook{
+        margin-left: 3.7%;
+    }
+}
+
+.section_contact{
+    color: white;
+    transition: transform .5s;
+    margin-top: 20px;
+    border: 1px solid gray;
+    padding: 8px;
+    height: 10%;
+    width: 30%;
+}
+
+@media screen and (max-width: 1350px){
+    .section_contact{
+        float: right;
+        margin-right: 2.7%;
+    }
+}
+
+.section_log{
+    color: white;
+    transition: transform .5s;
+    margin-top: 20px;
+    margin-left: 35px;
+    border: 1px solid gray;
+    padding: 8px;
+    height: 10%;
+    width: 30%;
+}
+
+@media screen and (max-width: 1350px){
+    .section_log{
+        float: right;
+        margin-right: 2.7%;
+    }
+}
+
+.section_persoonlijk:hover{
+    border: 1px solid red;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05); /*Voor safari ofzooo*/
+    transform: scale(1.05);
+}
+
+.section_cv:hover{
+    border: 1px solid blue;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05); /*Voor safari ofzooo*/
+    transform: scale(1.05);
+}
+
+.section_portfolio:hover{
+    border: 1px solid yellow;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05); /*Voor safari ofzooo*/
+    transform: scale(1.05);
+}
+
+.section_contact:hover{
+    border: 1px solid rgb(21, 255, 0);
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05); /*Voor safari ofzooo*/
+    transform: scale(1.05);
+}
+
+.section_guestBook:hover{
+    border: 1px solid rgb(0, 2555, 255);
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05); /*Voor safari ofzooo*/
+    transform: scale(1.05);
+}
+
+.section_log:hover{
+    border: 1px solid rgb(255, 128, 0);
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05); /*Voor safari ofzooo*/
+    transform: scale(1.05);
+}
+
+/*persoonlijk page*/
+
+.h1_persoonlijk{
+    text-align: center;
+    color: red;
+    font-size: 30px;
+}
+
+.h2_persoonlijk{
+    text-align: center;
+}
+
+.foto1{
+    height: 160%;
+    width: 275px;
+}
+
+@media screen and (max-width: 1293px){
+    .foto1{
+        height: 120%;
+        width: 200px;
+    }
+}
+
+.foto2{
+    height: 160%;
+    width: 325px;
+}
+
+@media screen and (max-width: 1293px){
+    .foto2{
+        height: 120%;
+        width: 240px;
+        margin-right: 2.5%;
+        float: right;
+    }
+}
+
+.section_persoonlijk_pagina{
+    margin-top: 20px;
+    border: 1px solid #ff0000;
+    padding: 8px;
+    width: 500px;
+    position: absolute;
+    left: 33%;
+    height: 400px;
+}
+
+@media screen and (max-width: 1293px){
+    .section_persoonlijk_pagina{
+        left: 35%;
+        width: 400px;
+    }
+}
+
+.section_foto1{
+    float: left;
+    width: 300px;
+    height: 310px;
+    margin-left: 5px;
+}
+
+
+.section_foto2{
+    float: right;
+    width: 300px;
+    height: 310px;
+    margin-right: 2.5%;
+}
+
+@media screen and (max-width: 1293px){
+    .section_foto2{
+        margin-right: 4px;
+    }
+}
+
+/* CV page */
+
+.h1_CV{
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+}
+
+.section_cv_page{
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid blue;
+    padding: 8px;
+    width: 45%;
+    position: fixed;
+    left: 430px;
+    height: 350px;
+}
+
+@media screen and (max-width: 1350px){
+    .section_cv_page{
+        left: 28%;
+    }
+}
+
+.button_cv {
+    width: 100%;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+  }
+
+  /*Portfolio|Microbits page/*/
+  .h1_portfolio{
+      color: yellow;
+      text-align: center;
+      font-size: 30px
+  }
+
+  .section_microbits{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    border: 1px solid yellow;
+    padding: 8px;
+    margin-right: 25px;
+  }
+
+@media screen and (max-width: 1350px){
+    .section_microbits{
+        width: 75%;
+        margin-left: 13.5%;
+    }
+}
+
+  .section_videoProject{
+      text-align: center;
+      color: white;
+      margin-top: 20px;
+      border: 1px solid yellow;
+      padding: 8px;
+      margin-right: 25px;
+  }
+
+@media screen and (max-width: 1350px){
+    .section_videoProject{
+        width: 75%;
+        margin-left: 13.5%;
+    }
+}
+
+  .section_wireframes{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    border: 1px solid yellow;
+    padding: 8px;
+  }
+
+@media screen and (max-width: 1350px){
+    .section_wireframes{
+        width: 75%;
+        margin-left: 13.5%;
+    }
+}
+
+  .h2_section_portfolio{
+      color: yellow;
+  }
+
+  /*Microbits page*/
+  .h2_microbits{
+      color: yellow;
+      text-align: center;
+      margin-left: 22px;
+  }
+
+  .section_microbits_page{
+    width: 99%;
+    text-align: center;
+  } 
+
+
+.table_microbits {
+    color: rgb(243, 237, 237);
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+.th_microbits{
+    border: 1px solid yellow;
+    text-align: left;
+    padding: 8px;
+  }
+
+.td_microbits{
+    border: 1px solid yellow;
+    text-align: left;
+    padding: 8px;
+}
+
+.table_microbits tr:nth-child(even) {
+    background-color: rgb(15, 15, 15);
+  }
+  
+  .microbitLink{
+      color: rgb(243, 237, 237);
+  }
+
+  /*video project page*/
+.portfolioVideo{
+    margin-left: 27%;
+    border: 1px solid yellow;
+}
+
+@media screen and (max-width: 1293px){
+    .portfolioVideo{
+        width: 75%;
+        margin-left: 13.5%;
+    }
+}
+
+.p_videoproject{
+    text-align: center;
+    font-size: 25px;
+}
+
+/*Wireframes page*/
+.wireframesButton{
+    text-align: center;
+    border: 2px solid yellow;
+    color: white;
+    padding: 3px;
+    font-size: 15px;
+    margin-left: 3.5%;
+}
+
+@media screen and (max-width: 1430px){
+    .wireframesButton{
+        font-size: 14px;
+        margin-left: 2%
+    }
+}
+
+@media screen and (max-width: 1345px){
+    .wireframesButton{
+        font-size: 13px;
+        margin-left: 1%;
+    }
+}
+
+@media screen and (max-width: 1250px){
+    .wireframesButton{
+        margin-left: 0.5%;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1250px){
+    .wireframesButton{
+        margin-left: 0.1%;
+        font-size: 11px;
+    }
+}
+
+.p_wireframes{
+    text-align: center;
+    margin-top: 75px;
+    font-size: 20px;
+}
+
+/*contact form page*/
+.h1_contact{
+    text-align: center;
+    color: rgb(21, 255, 0);
+}
+
+.p_contact{
+    text-align: center;
+    font-size: 15px;
+}
+
+form{
+    margin-top: 50px;
+}
+
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(21, 255, 0);
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input{
+    height: 45px;
+    margin-left: 0%;
+}
+
+form .submit{
+    background: rgb(21, 150, 0);
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+
+}
+
+form .submit:hover{
+    background-color: rgb(21, 100, 0);
+    cursor: pointer;
+}
+
+.contact-form{
+    margin-left: 32%;
+}
+
+.contact-text{
+    margin-left: 4%;
+}
+
+@media screen and (max-width: 1360px){
+    .contact-text{
+        margin-left: 11%;
+    }
+}
+
+@media screen and (max-width: 1360px){
+    .contact-form{
+        margin-left: 27%;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .contact-form{
+        margin-left: 22%;
+    }
+}
+
+.mailIcon{
+    margin-left: 47%;
+    margin-top: 45px;
+}
+
+@media screen and (max-width: 1360px){
+    .mailIcon{
+        margin-left: 46%;
+    }
+}
+
+/*Guestbook file*/
+.h1_guestBook{
+    text-align: center;
+    color: rgb(0, 2555, 255)
+}
+
+.p_guestBook{
+    margin-left: 25%;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1350px){
+    .p_guestBook{
+        margin-left: 31%;
+        font-size: 18px;
+    }
+}
+
+.form_guestBook{
+    width: 600px;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.input_guestBook{
+    height: 75px;
+    width: 600px;
+    background: transparent;
+    border: 1px solid rgb(0, 2555, 255);
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+    margin-left: 80%;
+}
+
+@media screen and (max-width: 1370px) {
+    .input_guestBook {
+        margin-left: 69%;
+    }
+}
+
+
+.submit_guestBook{
+    width: 600px;
+    outline: none;
+    background: rgb(38, 217, 217);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-left: 80%;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:1370px){
+    .submit_guestBook{
+        margin-left: 69%;
+    }
+}
+
+.submit_guestBook:hover{
+    cursor: pointer;
+    background: rgb(64, 191, 191);
+}
+
+.ul_guestBook{
+    margin-left: 250px;
+    font-size: 25px;
+}
+
+/*Logboek page*/
+.h1_log{
+    text-align: center;
+    color: rgb(255, 128, 0);
+}
+
+.section_log_page{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    border: 1px solid rgb(255, 128, 0);
+    padding: 8px;
+}
+
+.table_log {
+    color: rgb(243, 237, 237);
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+
+.th_log{
+    border: 1px solid 	rgb(185, 128, 70);
+    text-align: left;
+    padding: 8px;
+}
+
+.td_log{
+    border: 1px solid 	rgb(185, 128, 70);
+    text-align: left;
+    padding: 8px;
+}
+
+.table_log tr:nth-child(even) {
+    background-color: rgb(15, 15, 15);
+}
