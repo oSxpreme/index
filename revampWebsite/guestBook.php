@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <header>
-    <a href="index">
+    <a href="revampWebsite/index">
         <section>
             <img src="https://www.seekpng.com/png/full/375-3752606_homepage-icon-house-logo-png-white.png" class="homeButton">
         </section></a>

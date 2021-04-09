@@ -49,7 +49,7 @@
                         <h1>Contact</h1>
                         <p>Hoe kunt u me bereiken?</p>
                     </section></a>
-                <a href="guestBook">
+                <a href="revampWebsite/guestBook">
                 <section class="section_guestBook block" block">
                   <h1>Gastenboek</h1>
                   <p>Wie hebben mijn website bekeken?</p>
