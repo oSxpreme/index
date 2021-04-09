@@ -24,7 +24,7 @@
 </form>
 
 <p class="p_guestBook">Ik wil u vragen uw naam in te vullen in het gastenboek hierboven als u deze website bekeken hebt.</p>
-<p class="p_guestBook">Deze mensen waren u voor......</p>
+<p class="p_guestBook">Deze mensen waren u voor.....</p>
     <?php
         if(isset($_POST['name'])) {
 
